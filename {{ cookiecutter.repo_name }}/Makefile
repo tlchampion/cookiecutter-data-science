@@ -5,8 +5,8 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-BUCKET = {{ cookiecutter.gcs_bucket }}
-PROFILE = {{ cookiecutter.gcs_profile }}
+BUCKET = {{ cookiecutter.s3_bucket }}
+PROFILE = {{ cookiecutter.s3_profile }}
 PROJECT_NAME = {{ cookiecutter.repo_name }}
 PYTHON_INTERPRETER = {{ cookiecutter.python_interpreter }}
 
